@@ -1,0 +1,171 @@
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/Roboto-Light.ttf), url(fonts/Roboto-Regular.ttf), url(fonts/Roboto-Bold.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	color: #ffffff;
+	background-color: #010001;
+	font-weight: 400;
+	max-width: 1440px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	margin-bottom: 2%;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.container {
+	max-width: 1240px;
+	margin: auto;
+	padding: 50px 5px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a {
+	font-size: 12px;
+	padding: 10px;
+}
+
+header nav a:hover {
+	background-color: #464646;
+}
+
+header nav.first {
+	font-size: 12px;
+}
+
+header nav.second a{
+	color: #808080;
+}
+
+main section.title {
+	margin-top: 10%;
+	text-align: center;
+}
+
+main section.title p {
+	margin-bottom: 5px;
+}
+
+main section.earth img {
+	width: 100%;
+}
+
+main section.falcon {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10%;
+}
+
+main section.falcon .falcon-overview {
+	width: 50%;
+	margin-top: 45%;
+	padding: 5px;
+}
+
+main section.falcon .falcon-overview h2 {
+	margin-bottom: 15%;
+	text-transform: uppercase;
+}
+
+main section.falcon .falcon-overview .falcon-overview-item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+}
+
+main section.falcon .falcon-overview .falcon-overview-item p {
+	font-size: 18px;
+}
+
+main section.falcon .falcon-overview .falcon-overview-item span {
+	color: #B2B0B2;
+}
+
+main section.falcon .falcon-overview .falcon-overwiew-about {
+	margin-top: 40%;
+}
+
+main section.falcon .falcon-overview .falcon-overwiew-about p {
+	font-size: 16px;
+	line-height: 29px;
+	padding-right: 70px;
+}
+
+main section.falcon .falcon-item {
+	width: 50%;
+}
+
+main section.falcon .falcon-item img {
+	width: 100%;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer nav.refferences {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer nav.refferences a {
+	padding: 10px;
+	font-size: 18px;
+}
+
+footer nav.refferences a:hover {
+	background-color: #464646;
+}
+
+footer p {
+	font-size: 18px;
+	color:#808080;
+	padding: 10px;
+}
+
+footer p a {
+	color: inherit;
+}
+
+footer .button {
+	font-size: 18px;
+	border: 1px solid #ffffff;
+	padding: 20px 80px;
+	margin: 5% 0 10%;
+}
+
+footer .button:hover {
+	background-color: #464646;;
+}

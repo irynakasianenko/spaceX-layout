@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+	}
+
+	main section.falcon {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	
+main section.falcon .falcon-overview {
+	width: 100%;
+}
+
+main section.falcon .falcon-item {
+	margin: auto;
+}
+
+main section.falcon .falcon-overview .falcon-overwiew-about p {
+	padding: 0;
+}
+
+	main section.falcon .falcon-overview .falcon-overview-item {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 600px) {
+	footer .refferences {
+		flex-direction: column;
+	}
+}
+
